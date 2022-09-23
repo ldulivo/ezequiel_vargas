@@ -1,0 +1,119 @@
+.SectionHeader {
+  width: 100%;
+  max-width: 1270px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  top: -120px;
+  margin-bottom: -40px;
+
+  > .colum {
+    width: calc(100% /3);
+    padding: 35px;
+    color: #fff;
+    position: relative;
+
+    &:nth-child(1) {
+      background-color: #fff;
+      color: #232d36;
+
+      p {
+        color: #667380;
+      }
+    }
+
+    &:nth-child(2) {
+      background-color: #4fcaf5;
+
+      p {
+        color: #edecec;
+      }
+
+      button {
+        background-color: #232d36;
+      }
+    }
+
+    &:nth-child(3) {
+      background-color: #232d36;
+
+      p {
+        color: #edecec;
+      }
+    }
+
+    > .content {
+      width: 100%;
+      padding-bottom: 45px;
+
+      > button {
+        position: absolute;
+        bottom: 35px;
+      }
+
+      > h3 {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.35em;
+        margin-bottom: 8px;
+        text-transform: capitalize;
+      }
+
+      > p {
+        margin: 10px 0 20px 0;
+        font-size: 16px;
+        line-height: 1.5;
+      }
+
+      .dialog--h3 {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.35em;
+        margin-bottom: 8px;
+        text-transform: capitalize;
+      }
+
+      .dialog--p {
+        margin: 10px 0 20px 0;
+        font-size: 16px;
+        color: #667380;
+      }
+
+      .dialog--close {
+        width: 24px;
+        fill: #232d36;
+        position: absolute;
+        top: 2px;
+        right: 3px;
+        box-shadow: 0 0 2px 0px #fff;
+      }
+    }
+  }
+}
+
+@media (max-width: 1270px) {
+  .SectionHeader {
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .SectionHeader {
+
+    > .colum {
+      padding: 35px 15px;
+    }
+  }
+}
+
+@media (max-width: 766px) {
+  .SectionHeader {
+    flex-direction: column;
+
+    > .colum {
+      width: 100%;
+      padding: 35px;
+    }
+  }
+}

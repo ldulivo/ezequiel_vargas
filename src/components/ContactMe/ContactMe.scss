@@ -1,0 +1,48 @@
+.ContactMe {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  align-items: center;
+  
+  h3 {
+    text-align: justify;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 1.35em;
+    text-transform: capitalize;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+  }
+  
+  > a {
+    width: calc(100% - 10px);
+    max-width: 378px;
+    height: 80px;
+    background-color: #25d366;
+    border-radius: 15px;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    position: relative;
+  }
+
+  .ContactMe-WhatsApp {
+    width: 44px;
+  }
+}
+
+@media (max-width: 766px) {
+  .ContactMe {
+
+    h3 {
+      font-size: 24px;
+    }
+  }
+}

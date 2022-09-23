@@ -1,0 +1,71 @@
+.Slider {
+  display: flex;
+  position: relative;
+  background-color: red;
+  width: max-content;
+  height: max-content;
+
+  > button {
+    position: absolute;
+    background: #0000006b;
+    border: none;
+    border-radius: 50px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+  }
+
+  .right {
+    left: unset;
+    right: 10px;
+  }
+
+  .content {
+    display: flex;
+    overflow: hidden;
+
+    > main {
+      display: flex;
+      width: 100%;
+      transform: translateX(0px);
+      /* transition: all 0.5s ease; */
+      transition: all 1s cubic-bezier(1, 0.02, 0.72, 0.99);
+
+      > img {
+        width: 100%;
+      }
+    }
+  }
+
+  .selected {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    > button {
+      width: 15px;
+      height: 15px;
+      border: 1px solid #ffffff63;
+      border-radius: 50%;
+      background: #ffffff21;
+      position: relative;
+      cursor: pointer;
+      transition: all 1s cubic-bezier(1, 0.02, 0.72, 0.99);
+    }
+
+    .active {
+      background: #ffffff6a;
+    }
+
+  }
+}

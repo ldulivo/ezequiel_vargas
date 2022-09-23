@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+
+  &:active,
+  &:visited {
+    text-decoration: none;
+  }
+}
+
+.App {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content, section {
+  width: 100%;
+  max-width: 1270px;
+}
+
+section {
+  margin-bottom: 80px;
+}
+
+button {
+  border-radius: 4px;
+  background-color: #51c6ee;
+  color: #fff;
+  padding: 11px 17px;
+  font-size: 14px;
+  border: 0;
+  font-weight: normal;
+  line-height: 1.5;
+  text-align: center;
+  text-transform: uppercase;
+  transition: background-color 0.2s ease 0s;
+}
+
+dialog {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 500px;
+  width: 100%;
+  min-height: 310px;
+  border: 1px solid #51c6ee;
+  border-radius: 4px;
+  padding: 100px 20px;
+  text-transform: none;
+
+  &::backdrop {
+    background-color: #0000008c;
+    backdrop-filter: blur(1.5px);
+    z-index: 200;
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 766px) {
+  dialog {
+    width: calc(100% - 20px);
+    padding: 40px 10px;
+  }
+}
