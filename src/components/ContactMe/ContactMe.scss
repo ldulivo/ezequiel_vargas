@@ -4,8 +4,8 @@
   flex-direction: column;
   align-items: center;
   
-  h3 {
-    text-align: justify;
+  h2, h3 {
+    text-align: center;
     font-size: 27px;
     font-weight: 600;
     line-height: 1.35em;
@@ -28,9 +28,11 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 20px;
     padding: 0 20px;
     position: relative;
+    margin-top: 40px;
   }
 
   .ContactMe-WhatsApp {
@@ -43,6 +45,22 @@
 
     h3 {
       font-size: 24px;
+    }
+  }
+}
+
+@media (max-width: 350px) {
+  .ContactMe {
+    h3 {
+      font-size: 20px;
+    }
+  }
+}
+
+@media (max-width: 300px) {
+  .ContactMe {
+    h3 {
+      font-size: 19px;
     }
   }
 }

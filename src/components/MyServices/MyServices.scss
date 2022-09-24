@@ -1,0 +1,95 @@
+.MyServices {
+  background-color: #000;
+  padding: 40px 0 80px;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  > .content {
+    width: 100%;
+    max-width: 1270px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    gap: 20px;
+
+    > .card {
+      background-color: #fff;
+      width: calc(100% / 4);
+
+      > header {
+        width: 100%;
+        height: 198px;
+        overflow: hidden;
+        margin-bottom: 15px;
+
+        > img {
+          width: 130%;
+        }
+      }
+
+      > main {
+        padding: 0 10px;
+        h3 {
+          font-size: 20px;
+          font-weight: 500;
+          line-height: 1.35em;
+          margin-bottom: 8px;
+          text-transform: capitalize;
+        }
+
+        p {
+          margin: 10px 0 20px 0;
+          font-size: 16px;
+          line-height: 1.5;
+        }
+      }
+    }
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 1.35em;
+    text-transform: capitalize;
+    color: #fff;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 1315px) {
+  .MyServices {
+    padding: 40px 10px 80px;
+  }
+}
+
+@media (max-width: 1154px) {
+  .MyServices {
+    .content {
+      flex-wrap: wrap;
+      .card {
+        width: calc(calc(100% / 2) - 20px);
+        header {
+          height: 250px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 585px) {
+  .MyServices {
+    .content {
+      .card {
+        width: calc(100% - 20px);
+        header {
+          height: 250px;
+        }
+      }
+    }
+  }
+}

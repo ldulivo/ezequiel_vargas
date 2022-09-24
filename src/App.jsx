@@ -1,6 +1,7 @@
 import ContactMe from './components/ContactMe'
 import Header from './components/Header'
 import InstitutionalVideo from './components/InstitutionalVideo'
+import { MyServices } from './components/MyServices'
 import SectionHeader from './components/SectionHeader'
 const App = () => {
   return (
@@ -17,7 +18,7 @@ const App = () => {
       </Header>
       <SectionHeader />
       <ContactMe />
-      <InstitutionalVideo />
+      <MyServices />
     </div>
   )
 }
