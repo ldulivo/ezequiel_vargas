@@ -1,17 +1,21 @@
 {
   "files": {
-    "main.css": "/ezequiel_vargas/static/css/main.46258792.css",
-    "main.js": "/ezequiel_vargas/static/js/main.4ff251b8.js",
+    "main.css": "/ezequiel_vargas/static/css/main.efb7608f.css",
+    "main.js": "/ezequiel_vargas/static/js/main.e5a160bf.js",
     "static/js/787.57a2c145.chunk.js": "/ezequiel_vargas/static/js/787.57a2c145.chunk.js",
     "static/media/finance.mp4": "/ezequiel_vargas/static/media/finance.55c1a786e5530745d918.mp4",
+    "static/media/architecture-g023c94107_1920.jpg": "/ezequiel_vargas/static/media/architecture-g023c94107_1920.a27f2fd908893f9525c3.jpg",
     "static/media/ezequiel_vargas.mp4": "/ezequiel_vargas/static/media/ezequiel_vargas.5848a259038ca0f6f900.mp4",
+    "static/media/office-g7b0c50bd1_1920.jpg": "/ezequiel_vargas/static/media/office-g7b0c50bd1_1920.1cbc3cf6f8000121e7d9.jpg",
+    "static/media/accounting-gcfd9c9f30_1920.jpg": "/ezequiel_vargas/static/media/accounting-gcfd9c9f30_1920.826c79b4b38f5070d173.jpg",
+    "static/media/apparel-g817fdf225_1920.jpg": "/ezequiel_vargas/static/media/apparel-g817fdf225_1920.7edbeaeef0a2285aebcd.jpg",
     "index.html": "/ezequiel_vargas/index.html",
-    "main.46258792.css.map": "/ezequiel_vargas/static/css/main.46258792.css.map",
-    "main.4ff251b8.js.map": "/ezequiel_vargas/static/js/main.4ff251b8.js.map",
+    "main.efb7608f.css.map": "/ezequiel_vargas/static/css/main.efb7608f.css.map",
+    "main.e5a160bf.js.map": "/ezequiel_vargas/static/js/main.e5a160bf.js.map",
     "787.57a2c145.chunk.js.map": "/ezequiel_vargas/static/js/787.57a2c145.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.46258792.css",
-    "static/js/main.4ff251b8.js"
+    "static/css/main.efb7608f.css",
+    "static/js/main.e5a160bf.js"
   ]
 }
