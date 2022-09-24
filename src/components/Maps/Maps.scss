@@ -1,0 +1,83 @@
+.Maps {
+  max-width: 100%;
+  padding: 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #232d36;
+  margin-bottom: 0;
+  overflow: hidden;
+  height: calc(300px + calc(100vw * .05));
+
+  > iframe {
+    width: 100%;
+    height: 300px;
+    border: 0;
+  }
+
+  > img {
+    top: 230px;
+    position: absolute;
+    width: 100%;
+  }
+}
+
+@media (max-width: 1180px) {
+  .Maps {
+    height: calc(300px + calc(100vw * .03));
+  }
+}
+
+@media (max-width: 850px) {
+  .Maps {
+    height: calc(300px + calc(100vw * .01));
+  }
+}
+
+@media (max-width: 680px) {
+  .Maps {
+    height: calc(300px + calc(100vw * .005));
+  }
+}
+
+@media (max-width: 475px) {
+  .Maps {
+    height: calc(300px + calc(100vw * .001));
+
+    img {
+      width: 110%;
+    }
+  }
+}
+
+@media (max-width: 432px) {
+  .Maps {
+    img {
+      width: 120%;
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .Maps {
+    img {
+      width: 130%;
+    }
+  }
+}
+
+@media (max-width: 370px) {
+  .Maps {
+    img {
+      width: 150%;
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  .Maps {
+    img {
+      width: 170%;
+    }
+  }
+}

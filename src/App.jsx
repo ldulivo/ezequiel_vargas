@@ -1,6 +1,7 @@
 import ContactMe from './components/ContactMe'
+import { Footer } from './components/Footer'
 import Header from './components/Header'
-import InstitutionalVideo from './components/InstitutionalVideo'
+import { Maps } from './components/Maps'
 import { MyServices } from './components/MyServices'
 import SectionHeader from './components/SectionHeader'
 const App = () => {
@@ -19,6 +20,8 @@ const App = () => {
       <SectionHeader />
       <ContactMe />
       <MyServices />
+      <Maps />
+      <Footer />
     </div>
   )
 }
