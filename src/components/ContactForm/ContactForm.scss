@@ -1,0 +1,38 @@
+.ContactForm {
+  display: flex;
+  min-width: 300px;
+
+  > form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 423px;
+  }
+
+  > dialog {
+    text-align: center;
+  }
+
+  .dialog--h3 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.35em;
+    margin-bottom: 8px;
+    text-transform: capitalize;
+  }
+
+  .dialog--p {
+    margin: 10px 0 20px 0;
+    font-size: 16px;
+    color: #667380;
+  }
+
+  .dialog--close {
+    width: 24px;
+    fill: #232d36;
+    position: absolute;
+    top: 2px;
+    right: 3px;
+    box-shadow: 0 0 2px 0px #fff;
+  }
+}

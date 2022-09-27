@@ -1,3 +1,4 @@
+import { ContactForm } from './components/ContactForm'
 import ContactMe from './components/ContactMe'
 import { Footer } from './components/Footer'
 import Header from './components/Header'
@@ -20,6 +21,7 @@ const App = () => {
       <SectionHeader />
       <ContactMe />
       <MyServices />
+      <ContactForm />
       <Maps />
       <Footer />
     </div>

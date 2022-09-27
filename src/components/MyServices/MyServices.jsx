@@ -37,7 +37,7 @@ export const MyServices = () => {
           </header>
           <main>
             <h3>Empresas</h3>
-            <p>Creación de S.A y S.R.L. Confección de balance e inventarios mensuales y anual, auditoría, informe, copiado y rúbrica de libros contables. Inpuestos.</p>
+            <p>Creación de S.A y S.R.L. Confección de balance e inventarios mensuales y anual, auditoría, informe, copiado y rúbrica de libros contables. Impuestos.</p>
           </main>
         </div>
 

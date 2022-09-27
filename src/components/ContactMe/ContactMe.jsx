@@ -5,7 +5,7 @@ const number = 2615174752
 const ContactMe = () => {
   return (
     <section className="ContactMe">
-      <h2>Compromiso con el clientes</h2>
+      <h2>Compromiso con los clientes</h2>
       <p>Se busca siempre brindar soluciones adecuadas a distintas situaciones. La dedicada atención a cada necesidad del clientes es el principal activo. Se busca la mejora continua de sus servicios, adaptando constantemente sus procedimientos a la normativa cambiante de nuestro país.</p>
       <a
         href={`https://wa.me/${number}?text=${msg}`}
