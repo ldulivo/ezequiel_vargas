@@ -14,13 +14,6 @@ export const Footer = () => {
         </a>
         <a
           className="Footer-Card"
-          href="mailto:ezequiel508@hotmail.com"
-          target="_blank"
-          rel="noopener noreferrer">
-            <p>eMail</p>
-        </a>
-        <a
-          className="Footer-Card"
           href={`https://wa.me/${number}?text=${msg}`}
           target="_blank"
           rel="noopener noreferrer">
