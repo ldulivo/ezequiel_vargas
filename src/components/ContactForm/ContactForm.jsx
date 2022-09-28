@@ -34,42 +34,56 @@ export const ContactForm = () => {
   }, [])
 
   return (
-    <div className="ContactForm" id='ContactForm'>
-      <form
-        action="https://formsubmit.co/ldulivo@gmail.com"
-        method="POST"
-      >
-        <h2>Contáctame</h2>
-        <input
-          value={speakWithUs.nombre}
-          onChange={handleContactMe}
-          name='nombre'
-          type='text'/>
-        <input
-          value={speakWithUs.telefono}
-          onChange={handleContactMe}
-          name='telefono'
-          type='number'/>
-        <input
-          value={speakWithUs.email}
-          onChange={handleContactMe}
-          name='email'
-          type='email'/>
-        <textarea
-          value={speakWithUs.mensaje}
-          onChange={handleContactMe}
-          name='mensaje'></textarea>
-        <input type="submit" value="Enviar" />
-        <input type="hidden" name="_next" value={`${window.location.origin}${window.location.pathname}#ContactForm`}/>
-        <input type="hidden" name="_captcha" value="false"/>
-        <input type="hidden" name="_subject" value={`Consulta WEB - ${speakWithUs.nombre}`}/>
-      </form>
+    <section className="ContactForm" id='ContactForm'>
+      <div className="content">
+        <form
+          action="https://formsubmit.co/ldulivo@gmail.com"
+          method="POST"
+        >
+          <h2>Contáctame</h2>
+          <label>
+            <input
+              value={speakWithUs.nombre}
+              onChange={handleContactMe}
+              name='nombre'
+              type='text'/>
+              <span className={speakWithUs.nombre !== '' ? 'active' : ''}>Nombre</span>
+          </label>
+          <label>
+            <input
+              value={speakWithUs.telefono}
+              onChange={handleContactMe}
+              name='telefono'
+              type='number'/>
+              <span className={speakWithUs.telefono !== '' ? 'active' : ''}>Número de teléfono</span>
+          </label>
+          <label>
+            <input
+              value={speakWithUs.email}
+              onChange={handleContactMe}
+              name='email'
+              type='email'/>
+              <span className={speakWithUs.email !== '' ? 'active' : ''}>Correo electrónico</span>
+          </label>
+          <label className='label-textarea'>
+            <textarea
+              value={speakWithUs.mensaje}
+              onChange={handleContactMe}
+              name='mensaje'></textarea>
+            <span className={speakWithUs.mensaje !== '' ? 'active' : ''}>Escribe tu mensaje</span>            
+          </label>
+          <input type="submit" value="Enviar" />
+          <input type="hidden" name="_next" value={`${window.location.origin}${window.location.pathname}#ContactForm`}/>
+          <input type="hidden" name="_captcha" value="false"/>
+          <input type="hidden" name="_subject" value={`Consulta WEB - ${speakWithUs.nombre}`}/>
+        </form>
 
-      <dialog id='modalContactMe' onClick={() => setModal(!modal)}>
-        <Close style={'dialog--close'} />
-        <h3 className='dialog--h3'>Mensaje enviado!</h3>
-        <p className='dialog--p'>A la brevedad estaré en contacto contigo.</p>
-      </dialog>
-    </div>
+        <dialog id='modalContactMe' onClick={() => setModal(!modal)}>
+          <Close style={'dialog--close'} />
+          <h3 className='dialog--h3'>Mensaje enviado!</h3>
+          <p className='dialog--p'>A la brevedad estaré en contacto contigo.</p>
+        </dialog>
+      </div>
+    </section>
   )
 }

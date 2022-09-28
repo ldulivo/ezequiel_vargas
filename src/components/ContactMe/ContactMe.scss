@@ -3,6 +3,25 @@
   gap: 15px;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  height: calc(70vh + 80px);
+  overflow: hidden;
+  position: relative;
+  max-width: 100%;
+  margin-bottom: unset;
+  padding-bottom: 80px;
+
+  .ContactMe-Background {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    transform: translate(-50%, -50%);
+
+    > img {
+      opacity: .04;
+      width: 230vw;
+    }
+  }
   
   h2, h3 {
     text-align: center;
