@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ezequiel_vargas/static/css/main.a7896f1f.css",
-    "main.js": "/ezequiel_vargas/static/js/main.e57ae307.js",
+    "main.css": "/ezequiel_vargas/static/css/main.2b067fef.css",
+    "main.js": "/ezequiel_vargas/static/js/main.e2a52b64.js",
     "static/js/787.57a2c145.chunk.js": "/ezequiel_vargas/static/js/787.57a2c145.chunk.js",
     "static/media/finance.mp4": "/ezequiel_vargas/static/media/finance.55c1a786e5530745d918.mp4",
     "static/media/architecture-g023c94107_1920.jpg": "/ezequiel_vargas/static/media/architecture-g023c94107_1920.a27f2fd908893f9525c3.jpg",
@@ -10,12 +10,12 @@
     "static/media/apparel-g817fdf225_1920.jpg": "/ezequiel_vargas/static/media/apparel-g817fdf225_1920.7edbeaeef0a2285aebcd.jpg",
     "static/media/office-gdc4e2f809_1920.jpg": "/ezequiel_vargas/static/media/office-gdc4e2f809_1920.53c9f36624ae86441945.jpg",
     "index.html": "/ezequiel_vargas/index.html",
-    "main.a7896f1f.css.map": "/ezequiel_vargas/static/css/main.a7896f1f.css.map",
-    "main.e57ae307.js.map": "/ezequiel_vargas/static/js/main.e57ae307.js.map",
+    "main.2b067fef.css.map": "/ezequiel_vargas/static/css/main.2b067fef.css.map",
+    "main.e2a52b64.js.map": "/ezequiel_vargas/static/js/main.e2a52b64.js.map",
     "787.57a2c145.chunk.js.map": "/ezequiel_vargas/static/js/787.57a2c145.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a7896f1f.css",
-    "static/js/main.e57ae307.js"
+    "static/css/main.2b067fef.css",
+    "static/js/main.e2a52b64.js"
   ]
 }
