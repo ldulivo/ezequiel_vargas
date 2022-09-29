@@ -1,7 +1,7 @@
 import { WhatsApp } from '../SvgIcons'
 import './ContactMe.scss'
 import imgBackground from '../../media/img/office-gdc4e2f809_1920.jpg'
-const msg = 'Hola Ezequiel, me comunico para pedirte '
+const msg = 'Hola Ezequiel, me gustaría que agendemos una reunión '
 const number = 2615174752
 const ContactMe = () => {
   return (

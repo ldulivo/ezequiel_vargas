@@ -1,5 +1,6 @@
 import { ContactForm } from './components/ContactForm'
 import ContactMe from './components/ContactMe'
+import FloatingWhatsapp from './components/FloatingWhatsapp'
 import { Footer } from './components/Footer'
 import Header from './components/Header'
 import { Maps } from './components/Maps'
@@ -24,6 +25,7 @@ const App = () => {
       <ContactForm />
       <Maps />
       <Footer />
+      <FloatingWhatsapp />
     </div>
   )
 }
